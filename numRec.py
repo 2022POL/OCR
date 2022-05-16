@@ -15,14 +15,15 @@ import os
 import cv2
 from matplotlib import cm
 
-EAST
-"""
+# EAST
+print("a")
+
 # 이미지 파일 경로
 # image_path = os.getenv('')
 
 # 이미지 흑백으로 열기 (pillow)
-# img = np.array(Image.open("a-1.PNG").convert('L'))"""
-
+img = np.array(Image.open("1.PNG").convert('L'))
+"""
 img = cv2.imread("C:/Users/yjko/PycharmProjects/numberRecog/a-1.png")
 
 # 이미지 내의 경계 찾기
@@ -38,7 +39,7 @@ print(rects)
 
 thickness = abs(rects[0][2] - rects[1][2])*2
 print(thickness)
-
+"""
 # 이미지를 784개 픽셀로 사이즈 변환
 img = np.resize(img, (1, 784))
 
