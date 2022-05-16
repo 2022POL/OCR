@@ -263,7 +263,7 @@ cv2.imshow("Text Detection", orig)
 cv2.waitKey(0)
 
 """
-"""
+
 
 # 3
 
@@ -443,7 +443,7 @@ if __name__ == "__main__":
         # Display the frame
         cv.imshow(kWinName, frame)
         print("a")
-"""
+
 
 # 4
 """
